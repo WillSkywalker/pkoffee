@@ -48,6 +48,7 @@ bidict = ">=0.23.0"
 
 [dependencies]
 pkoffee = { path = "." }
+pytest = ">=9.0.2,<10"
 
 [feature.dev.dependencies]
 jupyterlab = "*"
