@@ -22,12 +22,18 @@ jobs:
                   pixi-version: v0.62.2
             - name: Run code check
 <<<<<<< HEAD
+<<<<<<< HEAD
               run: |
                   pixi add ruff
                   pixi run ruff check
 =======
               run: pixi run ruff check
 >>>>>>> d356477 (add github workflow)
+=======
+              run: |
+                  pixi add ruff
+                  pixi run ruff check
+>>>>>>> e61c314 (add ruff)
     test:
         runs-on: ubuntu-latest
         needs: code-check
