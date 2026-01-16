@@ -28,3 +28,9 @@ classifiers = [
 
 [project.scripts]
 pkoffee = "pkoffee.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pixi.feature.test.tasks]
+test = "pytest"

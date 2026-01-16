@@ -61,8 +61,12 @@ python = ">=3.13,<3.14"
 [feature.py314.dependencies]
 python = ">=3.14,<3.15"
 
+[feature.test.dependencies]
+pytest = ">=9.0,<10"
+
 [environments]
 default = { features = ["default", "py313", "dev"], solve-group = "prod-313" }
 prod = { features = ["default", "py313"], solve-group = "prod-313" }
 prod312 = { features = ["default", "py312"], solve-group = "prod-312" }
 prod314 = { features = ["default", "py314"], solve-group = "prod-314" }
+test = { features = ["test"], solve-group = "default" }
