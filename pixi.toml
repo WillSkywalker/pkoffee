@@ -52,6 +52,7 @@ pytest = ">=9.0.2,<10"
 
 [feature.dev.dependencies]
 jupyterlab = "*"
+ruff = "*"
 
 [feature.py312.dependencies]
 python = ">=3.12,<3.13"
@@ -71,3 +72,4 @@ prod = { features = ["default", "py313"], solve-group = "prod-313" }
 prod312 = { features = ["default", "py312"], solve-group = "prod-312" }
 prod314 = { features = ["default", "py314"], solve-group = "prod-314" }
 test = { features = ["test"], solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
