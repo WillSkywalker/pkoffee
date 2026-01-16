@@ -222,35 +222,6 @@ __marimo__/
 
 # Pixi
 .pixi/
-<<<<<<< HEAD
-<<<<<<< HEAD
-!.pixi/config.toml
-build/
-*.conda
-output/
-linux-64/
-noarch/
-osx-amd64/
-public/
-
-# Virtual environments
-venv/
-env/
-ENV/
-.venv
-
-# Python
-**/__pycache__/
-**/*.egg-info/
-*.py[codz]
-*$py.class
-*.so
-# pixi environments
-.pixi/*
-=======
->>>>>>> 8378678 (Day 1 solution: refactored code as a python project managed with pixi)
-=======
->>>>>>> b7afb282c87dd5c50186a12ac31b8fc6b81fcb64
 !.pixi/config.toml
 build/
 *.conda
@@ -365,21 +336,6 @@ doc/doc_src/doc
 # Learn more at https://abstra.io/docs
 .abstra/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Visual Studio Code
-#   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#   and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#   you could uncomment the following to ignore the entire vscode folder
-.vscode/
-
-# Ruff stuff:
-.ruff_cache/
-=======
->>>>>>> 8378678 (Day 1 solution: refactored code as a python project managed with pixi)
-=======
->>>>>>> b7afb282c87dd5c50186a12ac31b8fc6b81fcb64
 
 # PyPI configuration file
 .pypirc
