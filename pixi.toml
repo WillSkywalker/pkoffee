@@ -61,7 +61,7 @@ python = ">=3.13,<3.14"
 python = ">=3.14,<3.15"
 
 [feature.test.dependencies]
-pytest = "*"
+pytest = ">=9.0,<10"
 
 [environments]
 default = { features = ["default", "py313", "dev"], solve-group = "prod-313" }
