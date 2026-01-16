@@ -1,5 +1,7 @@
 # PKoffee - Coffee Productivity Analysis
 
+[![Test](https://github.com/WillSkywalker/pkoffee/actions/workflows/test.yml/badge.svg)](https://github.com/WillSkywalker/pkoffee/actions/workflows/test.yml)
+
 A Conda package implemented in python for analyzing the relationship between coffee consumption and productivity through statistical modeling and visualization.
 
 Project inspired by _Le Café - Oldelaf_ for the S3 School 2026.
