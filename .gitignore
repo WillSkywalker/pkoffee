@@ -223,6 +223,7 @@ __marimo__/
 # Pixi
 .pixi/
 <<<<<<< HEAD
+<<<<<<< HEAD
 !.pixi/config.toml
 build/
 *.conda
@@ -248,6 +249,8 @@ ENV/
 .pixi/*
 =======
 >>>>>>> 8378678 (Day 1 solution: refactored code as a python project managed with pixi)
+=======
+>>>>>>> b7afb282c87dd5c50186a12ac31b8fc6b81fcb64
 !.pixi/config.toml
 build/
 *.conda
@@ -363,6 +366,7 @@ doc/doc_src/doc
 .abstra/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Visual Studio Code
 #   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
 #   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
@@ -374,6 +378,8 @@ doc/doc_src/doc
 .ruff_cache/
 =======
 >>>>>>> 8378678 (Day 1 solution: refactored code as a python project managed with pixi)
+=======
+>>>>>>> b7afb282c87dd5c50186a12ac31b8fc6b81fcb64
 
 # PyPI configuration file
 .pypirc

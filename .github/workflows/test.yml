@@ -23,6 +23,7 @@ jobs:
             - name: Run code check
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               run: |
                   pixi add ruff
                   pixi run ruff check
@@ -34,6 +35,11 @@ jobs:
                   pixi add ruff
                   pixi run ruff check
 >>>>>>> e61c314 (add ruff)
+=======
+              run: |
+                  pixi add ruff
+                  pixi run ruff check
+>>>>>>> b7afb282c87dd5c50186a12ac31b8fc6b81fcb64
     test:
         runs-on: ubuntu-latest
         needs: code-check
