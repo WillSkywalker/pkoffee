@@ -25,3 +25,6 @@ classifiers = [
 "Homepage" = "https://github.com/s3-school/pkoffee-solution"
 "Bug Tracker" = "https://github.com/s3-school/pkoffee-solution/issues"
 "Documentation" = "https://github.com/s3-school/pkoffee-solution/blob/main/README.md"
+
+[project.scripts]
+pkoffee = "pkoffee.cli:main"
